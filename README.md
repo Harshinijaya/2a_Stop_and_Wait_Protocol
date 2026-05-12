@@ -29,8 +29,8 @@ while True:
     print("Frame received:", data)
     conn.send("ACK".encode())
 
-conn.close()```
-```CLIENT PROGRAM
+conn.close()
+CLIENT PROGRAM
 import socket
 
 s = socket.socket()
